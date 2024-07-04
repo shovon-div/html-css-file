@@ -3,23 +3,45 @@
     padding: 0;
 }
 h2{
-    color: brown;
+    color: rgb(34, 29, 29);
     font-style: italic;
     font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Playwrite GB S", cursive;
     text-decoration: overline;
     font-size: 80px;
     text-align: center;
+    
 }
 #heading-parent{
-    background-color: rgb(31, 14, 8);
+    /* background-image: linear-gradient(75deg , rgb(117, 36, 172) , rgb(90, 4, 57)); */
+    background-image: url(https://img.freepik.com/premium-photo/3d-illustration-boy-work-laptop-isolated-white-background_148003-1425.jpg?size=626&ext=jpg&ga=GA1.2.829330245.1691474205&semt=ais_user);
+    background-repeat:no-repeat ;
+    background-size: cover;
     height: 600px;
     padding: 100px 0;
-    width: 1000px;
+    max-width: 1000px;
     /* margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
      */
     margin: 30px auto;
+}
+.btn-parent{
+    text-align: center;
+    margin: 20px;
+}
+.btn{
+    background-color: rgb(160, 29, 105);
+    padding: 8px 15px;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(243, 237, 237);
+    border-radius: 6px; 
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+}
+.btn:hover{
+    background-color:rgb(109, 102, 102) ;
 }
